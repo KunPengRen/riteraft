@@ -56,7 +56,7 @@ impl Store for HashStore {
 Only 3 methods need to be implemented for the Store: 
 - `Store::apply`: applies a commited entry to the store.  
 - `Store::snapshot`: returns snapshot data for the store. 
-- `Store::apply`: applies the snapshot passed as argument.
+- `Store::restore`: applies the snapshot passed as argument.
 
 ### running the raft
 
